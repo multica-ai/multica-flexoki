@@ -2,7 +2,7 @@
 
 [Flexoki](https://stephango.com/flexoki), the inky colour scheme for prose and code by Steph Ango, as a [Multica](https://multica.ai) theme. Warm paper and black ink in light mode, its dark counterpart in dark mode, Flexoki's colours for status, priority and code, and a choice of accent.
 
-Install it from **Settings → Appearance → Browse** in Multica, or download `theme.zip` from the latest release and import it.
+Install it from **Settings → Appearance → Manage** in Multica, or download `theme.zip` from the latest release and import it.
 
 ## Options
 
