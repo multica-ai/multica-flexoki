@@ -1,9 +1,11 @@
 # Publishes theme.zip on every version tag. The store reads the latest
 # release's theme.zip; its manifest version must match the tag.
+# To publish an existing tag again: gh workflow run release.yml --ref <tag>
 name: Release
 on:
   push:
     tags: ["v*", "[0-9]*"]
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
