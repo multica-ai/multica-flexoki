@@ -1,0 +1,164 @@
+/* Flexoki for Multica.
+   Palette: Flexoki by Steph Ango, https://stephango.com/flexoki (MIT).
+   Variables: https://github.com/multica-ai/multica/blob/main/docs/theming.md
+
+   Light uses Flexoki's paper and the 600 accents; dark uses black and the
+   400 accents, the way Flexoki pairs them. Where that pair falls short of
+   WCAG AA for text, the next shade is used: cyan and green 700 in light,
+   blue and red 300 in dark. */
+
+.theme-light {
+  --fx-accent: #205ea6;
+
+  --app-shell: #f2f0e5;
+  --sidebar: #f2f0e5;
+  --page-canvas: #fffcf0;
+  --surface: #fffcf0;
+  --surface-raised: #fffcf0;
+  --surface-hover: #f2f0e5;
+  --surface-selected: #e6e4d9;
+  --surface-border: #e6e4d9;
+  --border: #e6e4d9;
+  --input: #dad8ce;
+  --muted: #f2f0e5;
+  --secondary: #e6e4d9;
+  --accent: #e6e4d9;
+  --sidebar-accent: #e6e4d9;
+  --sidebar-border: #e6e4d9;
+
+  --foreground: #100f0f;
+  --surface-foreground: #100f0f;
+  --surface-selected-foreground: #100f0f;
+  --card-foreground: #100f0f;
+  --popover-foreground: #100f0f;
+  --secondary-foreground: #100f0f;
+  --accent-foreground: #100f0f;
+  --sidebar-foreground: #100f0f;
+  --sidebar-accent-foreground: #100f0f;
+  --muted-foreground: #575653;
+  --faint-foreground: #6f6e69;
+
+  --primary: var(--fx-accent);
+  --primary-foreground: #fffcf0;
+  --brand: var(--fx-accent);
+  --brand-foreground: #fffcf0;
+  --sidebar-primary: var(--fx-accent);
+  --sidebar-primary-foreground: #fffcf0;
+  --ring: var(--fx-accent);
+  --sidebar-ring: var(--fx-accent);
+
+  --destructive: #af3029;
+  --success: #66800b;
+  --warning: #ad8301;
+  --info: #205ea6;
+  --priority-high: #bc5215;
+
+  --chart-1: #205ea6;
+  --chart-2: #24837b;
+  --chart-3: #66800b;
+  --chart-4: #ad8301;
+  --chart-5: #bc5215;
+
+  --tooltip: #282726;
+  --find-match: #f1d67e;
+  --find-match-active: #f9ae77;
+  --find-match-foreground: #100f0f;
+  --highlight-background: #f6e2a0;
+
+  --code-keyword: #66800b;
+  --code-string: #24837b;
+  --code-comment: #6f6e69;
+  --code-number: #5e409d;
+  --code-function: #bc5215;
+  --code-property: #bc5215;
+  --code-variable: #100f0f;
+  --code-type: #ad8301;
+  --code-deletion: #af3029;
+  --code-tag: #205ea6;
+  --code-punctuation: #6f6e69;
+}
+
+.theme-light[data-theme-option-flexoki-accent="cyan"] { --fx-accent: #1c6c66; }
+.theme-light[data-theme-option-flexoki-accent="green"] { --fx-accent: #536907; }
+.theme-light[data-theme-option-flexoki-accent="orange"] { --fx-accent: #bc5215; }
+.theme-light[data-theme-option-flexoki-accent="red"] { --fx-accent: #af3029; }
+.theme-light[data-theme-option-flexoki-accent="purple"] { --fx-accent: #5e409d; }
+.theme-light[data-theme-option-flexoki-accent="magenta"] { --fx-accent: #a02f6f; }
+
+.theme-dark {
+  --fx-accent: #66a0c8;
+
+  --app-shell: #1c1b1a;
+  --sidebar: #1c1b1a;
+  --page-canvas: #100f0f;
+  --surface: #1c1b1a;
+  --surface-raised: #1c1b1a;
+  --surface-hover: #282726;
+  --surface-selected: #343331;
+  --surface-border: #282726;
+  --border: #282726;
+  --input: #343331;
+  --muted: #1c1b1a;
+  --secondary: #282726;
+  --accent: #282726;
+  --sidebar-accent: #282726;
+  --sidebar-border: #282726;
+
+  --foreground: #cecdc3;
+  --surface-foreground: #cecdc3;
+  --surface-selected-foreground: #cecdc3;
+  --card-foreground: #cecdc3;
+  --popover-foreground: #cecdc3;
+  --secondary-foreground: #cecdc3;
+  --accent-foreground: #cecdc3;
+  --sidebar-foreground: #cecdc3;
+  --sidebar-accent-foreground: #cecdc3;
+  --muted-foreground: #9f9d96;
+  --faint-foreground: #878580;
+
+  --primary: var(--fx-accent);
+  --primary-foreground: #100f0f;
+  --brand: var(--fx-accent);
+  --brand-foreground: #100f0f;
+  --sidebar-primary: var(--fx-accent);
+  --sidebar-primary-foreground: #100f0f;
+  --ring: var(--fx-accent);
+  --sidebar-ring: var(--fx-accent);
+
+  --destructive: #d14d41;
+  --success: #879a39;
+  --warning: #d0a215;
+  --info: #4385be;
+  --priority-high: #da702c;
+
+  --chart-1: #4385be;
+  --chart-2: #3aa99f;
+  --chart-3: #879a39;
+  --chart-4: #d0a215;
+  --chart-5: #da702c;
+
+  --tooltip: #343331;
+  --find-match: #d0a215;
+  --find-match-active: #da702c;
+  --find-match-foreground: #100f0f;
+  --highlight-background: #503d02;
+
+  --code-keyword: #879a39;
+  --code-string: #3aa99f;
+  --code-comment: #878580;
+  --code-number: #8b7ec8;
+  --code-function: #da702c;
+  --code-property: #da702c;
+  --code-variable: #cecdc3;
+  --code-type: #d0a215;
+  --code-deletion: #d14d41;
+  --code-tag: #4385be;
+  --code-punctuation: #878580;
+}
+
+.theme-dark[data-theme-option-flexoki-accent="cyan"] { --fx-accent: #3aa99f; }
+.theme-dark[data-theme-option-flexoki-accent="green"] { --fx-accent: #879a39; }
+.theme-dark[data-theme-option-flexoki-accent="orange"] { --fx-accent: #da702c; }
+.theme-dark[data-theme-option-flexoki-accent="red"] { --fx-accent: #e8705f; }
+.theme-dark[data-theme-option-flexoki-accent="purple"] { --fx-accent: #8b7ec8; }
+.theme-dark[data-theme-option-flexoki-accent="magenta"] { --fx-accent: #ce5d97; }

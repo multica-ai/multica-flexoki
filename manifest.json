@@ -1,0 +1,117 @@
+{
+  "apiVersion": 1,
+  "id": "flexoki",
+  "name": "Flexoki",
+  "author": "Multica",
+  "version": "1.0.0",
+  "description": "An inky colour scheme for prose and code, inspired by analog printing inks and warm shades of paper. Ported from Flexoki by Steph Ango.",
+  "options": [
+    {
+      "id": "flexoki-accent",
+      "type": "select",
+      "label": {
+        "en": "Accent",
+        "zh-Hans": "强调色",
+        "zh-Hant": "強調色",
+        "ja": "アクセント",
+        "ko": "강조 색상",
+        "es": "Acento",
+        "fr": "Accent"
+      },
+      "default": "blue",
+      "choices": [
+        {
+          "value": "blue",
+          "label": {
+            "en": "Blue",
+            "zh-Hans": "蓝",
+            "zh-Hant": "藍",
+            "ja": "ブルー",
+            "ko": "파랑",
+            "es": "Azul",
+            "fr": "Bleu"
+          },
+          "swatch": "#205EA6"
+        },
+        {
+          "value": "cyan",
+          "label": {
+            "en": "Cyan",
+            "zh-Hans": "青",
+            "zh-Hant": "青",
+            "ja": "シアン",
+            "ko": "청록",
+            "es": "Cian",
+            "fr": "Cyan"
+          },
+          "swatch": "#24837B"
+        },
+        {
+          "value": "green",
+          "label": {
+            "en": "Green",
+            "zh-Hans": "绿",
+            "zh-Hant": "綠",
+            "ja": "グリーン",
+            "ko": "초록",
+            "es": "Verde",
+            "fr": "Vert"
+          },
+          "swatch": "#66800B"
+        },
+        {
+          "value": "orange",
+          "label": {
+            "en": "Orange",
+            "zh-Hans": "橙",
+            "zh-Hant": "橙",
+            "ja": "オレンジ",
+            "ko": "주황",
+            "es": "Naranja",
+            "fr": "Orange"
+          },
+          "swatch": "#BC5215"
+        },
+        {
+          "value": "red",
+          "label": {
+            "en": "Red",
+            "zh-Hans": "红",
+            "zh-Hant": "紅",
+            "ja": "レッド",
+            "ko": "빨강",
+            "es": "Rojo",
+            "fr": "Rouge"
+          },
+          "swatch": "#AF3029"
+        },
+        {
+          "value": "purple",
+          "label": {
+            "en": "Purple",
+            "zh-Hans": "紫",
+            "zh-Hant": "紫",
+            "ja": "パープル",
+            "ko": "보라",
+            "es": "Morado",
+            "fr": "Violet"
+          },
+          "swatch": "#5E409D"
+        },
+        {
+          "value": "magenta",
+          "label": {
+            "en": "Magenta",
+            "zh-Hans": "洋红",
+            "zh-Hant": "洋紅",
+            "ja": "マゼンタ",
+            "ko": "자홍",
+            "es": "Magenta",
+            "fr": "Magenta"
+          },
+          "swatch": "#A02F6F"
+        }
+      ]
+    }
+  ]
+}
